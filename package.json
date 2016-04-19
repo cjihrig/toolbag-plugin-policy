@@ -1,0 +1,41 @@
+{
+  "name": "toolbag-plugin-policy",
+  "version": "1.0.0",
+  "description": "toolbag plugin that allows blacklisting of modules, methods, and bindings",
+  "author": "Continuation Labs <contact@continuation.io> (http://continuation.io/)",
+  "main": "lib/index.js",
+  "homepage": "https://github.com/continuationlabs/toolbag-plugin-policy",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/continuationlabs/toolbag-plugin-policy"
+  },
+  "bugs": {
+    "url": "https://github.com/continuationlabs/toolbag-plugin-policy/issues"
+  },
+  "license": "MIT",
+  "scripts": {
+    "lint": "belly-button -f",
+    "test": "npm run lint && lab -v -a code -c"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "dependencies": {
+    "lodash.set": "4.1.0",
+    "reach": "1.0.0"
+  },
+  "devDependencies": {
+    "belly-button": "2.x.x",
+    "code": "2.x.x",
+    "lab": "10.x.x",
+    "toolbag": "2.x.x"
+  },
+  "keywords": [
+    "toolbag",
+    "plugin",
+    "toolbag plugin",
+    "blacklist",
+    "policy",
+    "restrict"
+  ]
+}
